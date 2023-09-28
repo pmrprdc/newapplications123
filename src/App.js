@@ -1,5 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+
+const StyledButton = styled.button`
+  background-color: lightblue;
+  color: black;
+  font-size: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+`;
 
 function App() {
   return (
@@ -17,6 +28,7 @@ function App() {
         >
           Learn React
         </a>
+        <StyledButton>Styled Button</StyledButton>
       </header>
     </div>
   );
